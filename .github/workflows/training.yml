@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-    - uses: actions/checkout@v4
+      uses: actions/checkout@v4
     # install a specific version of Node using
     # https://github.com/actions/setup-node
     - name: Use Node.js 20
